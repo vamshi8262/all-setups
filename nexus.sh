@@ -5,7 +5,7 @@ sudo yum install wget -y
 sudo yum install java-17-amazon-corretto-jmods -y
 sudo cd /opt
 sudo wget https://download.sonatype.com/nexus/3/nexus-3.86.2-01-linux-x86_64.tar.gz
-sudo tar -zxvf nexus.tar.gz
+sudo tar -zxvf nexus-3.86.2-01-linux-x86_64.tar.gz
 sudo mv nexus-3* nexus
 sudo adduser nexus
 sudo chown -R nexus:nexus /app/nexus
